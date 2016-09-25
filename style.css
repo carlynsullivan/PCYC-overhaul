@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	height: 100%;
+	background-image: url("./images/old_map.png");
+}
+
+/* -- Header -- */
+.header {
+	position: fixed;
+	color: #777777;
+	background-color: navy;
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0px;
+	border-bottom: 3px solid #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	overflow: hidden;
+	z-index: 999;
+}
+
+/* logo pic inside header */
+.logo-pic {
+	position: relative;
+	float: left;
+	vertical-align:
+	margin: 0px; 
+}
+
+/* heading inside header */
+h1 {
+	color: #ffffff;
+	float: left;
+	width: 210px;
+	display: inline;
+	padding: 5px;
+	font-size: 70px;
+}
+
+table {
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	bottom: -15%;
+	left: 40%;
+	float: left;
+	width: 400px;
+}
+
+.navigation {
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+	float: left;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.wrapper {
+	overflow: auto;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-bottom: -50px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px;
+	width: 960px;
+		}
+
+#main-bio {
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	background-color: #ffffff;
+	float: left;
+	border: 1px solid #dddddd;
+	width: 650px;
+	margin-top: 80px 10px 10px 0px;
+	padding: 20px;
+	overflow: auto;
+		}
+
+h2 {
+	color: lightseagreen;
+	align: left;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+}
+
+		
+#contact-info {
+	
+	position: absolute;
+	float: left;
+	top: 20%;
+	right: 0;
+	bottom: 0;
+	left: 82%;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding: 20px;
+	width: 120px;
+	height: 120px;
+	content-align: center;
+	overflow: auto;
+		}
+
+h3 {
+	color: lightseagreen;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+.hr {
+	position: absolute;
+	left: 17%;
+	width: 110px;
+	justify-content: center;
+}
+
+section.facebook {
+	position: relative;
+	top: 12px;
+	right: 0px;
+	left: 12px;
+	background-color: white;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	width: 630px;
+}
+
+textarea {
+	width: 630px;
+}
+
+.push {
+	visibility: hidden;
+} 
+
+.footer {
+	clear: both;
+	bottom: 0%;
+	top: 20px;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	background-color: #cccccc;
+	border-top: 5px solid #4aaaa5;
+}
+
+.footer, .push {
+	height: 50px;
+}
